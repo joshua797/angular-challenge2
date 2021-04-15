@@ -1,0 +1,5 @@
+<p>input-form works!</p>
+<h5>Username2</h5>
+<input placeholder="your username2" type="text" class="form-control" [(ngModel)]="username2">
+<p>{{ username2 }}</p>
+<button class="btn btn-info" [disabled]="username2 == ''" (click)="username2 = ''">Reset</button>
